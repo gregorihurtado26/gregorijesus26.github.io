@@ -1,0 +1,16 @@
+name: GREGORI JESUS HURTADO BONES
+url: http://matt.harzewski.com
+description: proyecto de introducion a ingenieria en sotware
+
+permalink: /themes/:title/
+
+plugins: [jekyll-paginate]
+
+highlighter: pygments
+paginate: 20
+
+markdown: rdiscount
+rdiscount:
+    extensions: ['smart']
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
